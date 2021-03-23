@@ -16,16 +16,14 @@ describe('Cart Page', () => {
         {
           amount: 1,
           id: 1,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
           price: 179.9,
           title: 'Tênis de Caminhada Leve Confortável',
         },
         {
           amount: 2,
           id: 2,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
           price: 139.9,
           title: 'Tênis VR Caminhada Confortável Detalhes Couro Masculino',
         },
@@ -40,9 +38,7 @@ describe('Cart Page', () => {
 
     const [incrementFirstProduct] = getAllByTestId('increment-product');
     const [, decrementSecondProduct] = getAllByTestId('decrement-product');
-    const [firstProductAmount, secondProductAmount] = getAllByTestId(
-      'product-amount'
-    );
+    const [firstProductAmount, secondProductAmount] = getAllByTestId('product-amount');
 
     expect(firstProductAmount).toHaveDisplayValue('1');
     expect(secondProductAmount).toHaveDisplayValue('2');
@@ -64,16 +60,14 @@ describe('Cart Page', () => {
         {
           amount: 2,
           id: 1,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
           price: 179.9,
           title: 'Tênis de Caminhada Leve Confortável',
         },
         {
           amount: 1,
           id: 2,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
           price: 139.9,
           title: 'Tênis VR Caminhada Confortável Detalhes Couro Masculino',
         },
@@ -118,8 +112,7 @@ describe('Cart Page', () => {
         {
           amount: 1,
           id: 2,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
           price: 139.9,
           title: 'Tênis VR Caminhada Confortável Detalhes Couro Masculino',
         },
